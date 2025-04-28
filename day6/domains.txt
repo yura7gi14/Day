@@ -1,0 +1,8 @@
+google.com
+yahoo.co.jp
+openai.com
+nonexistentdomain.abc
+facebook.com
+thisdoesnotexist.tld
+github.com
+hogehoge.invalid

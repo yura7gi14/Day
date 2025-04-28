@@ -1,0 +1,9 @@
+domain,ip_address,reverse_lookup,status
+google.com,142.250.207.110,kix06s11-in-f14.1e100.net,Success
+yahoo.co.jp,182.22.28.252,-,Success
+openai.com,172.64.154.211,-,Success
+nonexistentdomain.abc,-,-,Failed
+facebook.com,157.240.209.35,edge-star-mini-shv-01-itm1.facebook.com,Success
+thisdoesnotexist.tld,-,-,Failed
+github.com,20.27.177.113,-,Success
+hogehoge.invalid,-,-,Failed

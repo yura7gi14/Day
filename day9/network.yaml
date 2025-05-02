@@ -1,0 +1,31 @@
+nodes:
+  - id: router1
+    label: Router
+    type: router
+
+  - id: switch1
+    label: Switch
+    type: switch
+
+  - id: pc1
+    label: PC1
+    type: pc
+    group: VLAN10
+
+  - id: pc2
+    label: PC2
+    type: pc
+    group: VLAN10
+
+edges:
+  - from: router1
+    to: switch1
+    label: Gi0/1
+
+  - from: switch1
+    to: pc1
+    label: Fa0/1
+
+  - from: switch1
+    to: pc2
+    label: Fa0/2

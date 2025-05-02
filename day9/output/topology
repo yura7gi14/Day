@@ -1,0 +1,14 @@
+// Network Topology
+digraph {
+	rankdir=LR
+	router1 [label=Router fillcolor=lightblue shape=box style=filled]
+	switch1 [label=Switch fillcolor=lightgreen shape=ellipse style=filled]
+	subgraph cluster_VLAN10 {
+		label=VLAN10
+		pc1 [label=PC1 fillcolor=lightgray shape=circle style=filled]
+		pc2 [label=PC2 fillcolor=lightgray shape=circle style=filled]
+	}
+	router1 -> switch1 [label="Gi0/1"]
+	switch1 -> pc1 [label="Fa0/1"]
+	switch1 -> pc2 [label="Fa0/2"]
+}

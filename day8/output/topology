@@ -1,0 +1,11 @@
+// Network Topology
+digraph {
+	rankdir=LR
+	router1 [label=Router]
+	switch1 [label=Switch]
+	pc1 [label=PC]
+	server1 [label=Server]
+	router1 -> switch1
+	switch1 -> pc1
+	switch1 -> server1
+}
